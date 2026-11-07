@@ -1,0 +1,16 @@
+{
+  "name": "rubiks-cube-renderer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.179.0",
+    "typescript": "^5.9.2"
+  }
+}

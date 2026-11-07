@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <!-- Workaround: disable XAML compiler for engine environment -->
+    <UseXamlCompilerExecutable Condition="'$(UseXamlCompilerExecutable)' == ''">false</UseXamlCompilerExecutable>
+  </PropertyGroup>
+</Project>

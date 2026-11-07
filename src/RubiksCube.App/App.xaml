@@ -1,0 +1,25 @@
+<Application
+    x:Class="RubiksCube.App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="PageBackgroundBrush" Color="#F5F7F8" />
+                    <SolidColorBrush x:Key="PanelBackgroundBrush" Color="#E8EAEB" />
+                    <SolidColorBrush x:Key="PanelBorderBrush" Color="#B9C0C1" />
+                    <SolidColorBrush x:Key="AccentBrush" Color="#009E73" />
+                    <SolidColorBrush x:Key="MutedTextBrush" Color="#5A7072" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="PageBackgroundBrush" Color="#102629" />
+                    <SolidColorBrush x:Key="PanelBackgroundBrush" Color="#183438" />
+                    <SolidColorBrush x:Key="PanelBorderBrush" Color="#31575B" />
+                    <SolidColorBrush x:Key="AccentBrush" Color="#00F5A0" />
+                    <SolidColorBrush x:Key="MutedTextBrush" Color="#A4C1C2" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
